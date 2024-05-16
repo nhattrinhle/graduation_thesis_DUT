@@ -1,0 +1,47 @@
+.day {
+    &[data-in-range] {
+        background-color: #DCE4F5;
+        color: black;
+    }
+
+    &[data-selected] {
+        background-color: #B9C7E2;
+        color: black;
+    }
+}
+
+.coverPieChart {
+    @apply grid grid-cols-10 gap-4;
+  }
+  
+  .featureChart {
+    @apply col-span-4;
+  }
+  div.featureChart > div > div {
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    @apply rounded-14;
+  }
+  .categoryChart {
+    @apply col-span-6;
+  }
+  div.categoryChart > div > div {
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    @apply rounded-14;
+  }
+  
+  div.countedByDate > div > div {
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    @apply rounded-14;
+  }
+  
+  .rootDatePicker{
+      box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }

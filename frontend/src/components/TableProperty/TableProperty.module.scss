@@ -1,0 +1,295 @@
+.tablePropertyContainer {
+  @apply mx-4;
+}
+
+.tablePropertyContent {
+  @apply bg-white rounded-[15px] shadow-xl px-5 py-2;
+}
+
+.tableHeader {
+  @apply flex flex-row justify-between items-center;
+}
+
+.pageTitle {
+  @apply flex flex-col;
+}
+
+.title {
+  @apply text-[24px] font-bold font-archivo text-primary;
+}
+
+.subTitle {
+  @apply font-semibold text-base;
+}
+
+.coverBtn {
+  @apply flex flex-row items-center;
+}
+
+.iconBtn {
+  @apply text-base mr-2 font-normal text-white;
+}
+
+.addBtn {
+  @apply text-base hover:bg-darkBlue bg-orangeBtn;
+}
+
+.tableSideBar {
+  @apply mt-8 w-full  flex flex-row justify-between;
+}
+
+.tableSelect {
+  @apply flex flex-row 
+  xl:gap-6
+  lg:gap-3;
+}
+
+.inputText {
+  @apply border-primary rounded-[8px] text-base;
+}
+
+.elementSelect {
+  @apply border-primary rounded-[8px] text-base;
+}
+.sectionSelect {
+  @apply text-black;
+}
+
+.iconSearch {
+  @apply w-full cursor-pointer py-[8px] h-full text-white rounded-[8px]
+  hover:bg-darkBlue bg-orangeBtn;
+}
+
+.tableContent {
+  @apply mt-4;
+}
+
+.propertyNameCover {
+  @apply flex flex-row gap-2 items-center w-80;
+}
+
+.propertyName {
+  @apply text-black text-[17px] font-archivo font-[500] min-w-[260px] max-w-[380px] text-start
+  truncate;
+}
+.thName {
+  @apply max-w-80 cursor-pointer;
+}
+
+.propertyImage {
+  @apply min-w-[40px] w-10 h-10;
+}
+
+.propertyPrice {
+}
+
+.thPrice {
+  @apply max-w-[200px] min-w-25 flex flex-row items-center gap-2;
+}
+.propertyActions {
+  @apply flex flex-row items-center h-full gap-3;
+}
+
+.actionIcon {
+  @apply text-[20px] cursor-pointer;
+}
+
+.editIcon {
+  @apply text-orangeBtn;
+}
+
+.deleteIcon {
+  @apply text-red;
+}
+
+.titleTable {
+  @apply text-base;
+}
+
+.detailContentTable {
+  @apply text-base;
+}
+
+.headerModal {
+  @apply bg-second;
+}
+.contentModal {
+  @apply bg-second;
+}
+
+.bodyModal {
+  @apply px-10 py-5;
+}
+
+.titleModal {
+  @apply text-[20px] font-bold font-archivo;
+}
+
+.enable {
+  @apply text-base bg-darkBlue hover:bg-orangeBtn min-w-25;
+}
+
+.disabled {
+  @apply rounded-[20px] text-base text-slate-200 bg-slate-500 w-20 px-0 py-1 text-center;
+}
+
+.pagination {
+  @apply my-2 flex items-baseline justify-between;
+}
+.paginationControl {
+  @apply text-black;
+}
+
+.switchTrack {
+  @apply py-4 w-20;
+}
+
+.switchTrackLabel {
+  @apply text-base;
+}
+
+.switchThumb {
+  @apply block;
+}
+
+.titleModalPackage {
+  @apply text-2xl text-primary font-bold font-archivo;
+}
+
+.groupRoot {
+  @apply flex flex-col items-start mt-4;
+}
+
+.renewBtn {
+  @apply flex items-center px-12 bg-orangeBtn hover:bg-darkBlue text-base text-white mt-4;
+}
+
+.rootApplyBtn {
+  @apply bg-darkBlue text-white text-base hover:bg-orangeBtn;
+}
+
+.rootSelectActions {
+  @apply flex items-end gap-4;
+}
+
+.labelSelectActions {
+  @apply text-xl text-primary font-bold;
+}
+
+.inputSelectActions {
+  @apply border-primary text-primary font-semibold text-base max-w-50;
+}
+
+.dropdownSelectActions {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  @apply border-none;
+}
+
+.optionsSelectActions {
+}
+.optionSelectActions {
+  @apply bg-second mt-1 hover:bg-blur text-base font-semibold;
+}
+
+.rootBtnClear {
+  @apply bg-white text-blur text-base hover:bg-white hover:text-blur;
+}
+.rootBtnClearAfter {
+  @apply bg-white text-darkBlue text-base hover:bg-white hover:text-darkBlue;
+}
+// This style for Admin.
+
+.filteringCover {
+  @apply grid grid-cols-4 gap-8 w-full row-span-1;
+}
+
+.elementSelectAdmin {
+}
+.tableSelectAdmin {
+  @apply xl:gap-6 w-full
+  lg:gap-3;
+}
+
+.wrapperSelectStatus {
+  @apply w-2/3;
+}
+
+.inputSelectStatus {
+  @apply bg-primary;
+}
+
+.unavailableSelectStatus {
+  @apply bg-white;
+}
+.rootRangeSlider {
+  @apply lg:w-90;
+}
+
+.lableRangeSlider {
+  @apply bg-primary;
+}
+
+.iconSearchAdmin {
+  @apply text-white rounded-[8px]
+  hover:bg-darkBlue bg-orangeBtn;
+}
+
+.available {
+  @apply rounded-[20px] text-base text-white bg-green-available  py-1 text-center;
+}
+
+.unavailable {
+  @apply rounded-[20px] text-base text-white bg-purle-unavailable  py-1 text-center;
+}
+.disabledAdmin {
+  @apply rounded-[20px] text-base text-slate-200 bg-slate-500  py-1 text-center;
+}
+
+.tdNameCover {
+  @apply w-80;
+}
+
+.disabledIcon {
+  @apply text-darkBlue;
+}
+
+.rootButtonDeleteAll {
+  @apply bg-slate-200 text-black hover:bg-slate-200 hover:text-black;
+}
+
+.rootButtonDeleteAllAfter {
+  @apply bg-darkBlue text-white hover:bg-darkBlue;
+}
+
+.firstRowFilterContainer {
+  @apply grid grid-cols-4 gap-8;
+}
+.secondRowFilterContainer {
+  @apply flex flex-row mt-5 justify-between;
+}
+
+.priceRangeContainer {
+  @apply flex items-baseline gap-8;
+}
+
+.priceRangeChild {
+  @apply flex gap-3 items-baseline mt-5;
+}
+
+.labelPriceRange {
+  @apply text-base font-semibold text-primary;
+}
+
+.actionsContainer {
+  @apply flex items-end gap-4;
+}
+
+.iconSortTh {
+  @apply flex justify-between cursor-pointer;
+}
+
+.totalItems {
+  @apply text-lg mr-2 text-primary font-bold;
+}

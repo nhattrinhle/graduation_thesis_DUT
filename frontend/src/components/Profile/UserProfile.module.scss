@@ -1,0 +1,73 @@
+.container {
+  @apply bg-white py-4 min-h-125 my-7.5 rounded-2xl md:mx-[16px] mobile:mx-[12px] px-10 font-archivo;
+}
+
+.outer {
+  @apply flex gap-7 mobile:items-center lg:flex-row mobile:flex-col lg:justify-start lg:items-start mobile:justify-center;
+}
+
+.heading {
+  @apply xs:text-30 m-0 p-0  mobile:text-[22px] text-primary font-bold;
+}
+
+.title {
+  @apply font-bold text-30 text-primary m-0 mb-3;
+}
+
+.imgOuter {
+  @apply w-[300px] h-[300px] flex flex-col justify-center items-center 
+    py-5 rounded-[14px]  mt-3  flex-shrink-0;
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9VW0YJ_BK5Bsh_jC7RV5PjPcIZEznjL4d-g&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imgInner {
+  @apply flex flex-col h-full justify-start items-center gap-y-5 relative;
+}
+
+.avatar {
+  @apply outline outline-2 outline-blue-200 z-0;
+}
+
+.label {
+  @apply text-base;
+}
+
+.btn {
+  @apply mt-6 bg-orangeBtn hover:bg-darkBlue sm:w-1/2 mobile:w-2/3;
+}
+
+.uploadBtn {
+  @apply bg-orangeBtn hover:bg-darkBlue;
+}
+
+.disableBtn {
+  @apply mt-6 bg-orangeBtn text-white sm:w-1/2 mobile:w-2/3 opacity-70;
+}
+
+.personalInfoOuter {
+  @apply flex flex-col w-full;
+}
+
+.editIcon {
+  @apply text-blue-500 cursor-pointer;
+}
+
+.btnContainer {
+  @apply flex md:justify-end mobile:justify-center;
+}
+
+.pwTitle {
+  @apply font-bold text-[25px] mb-3 text-center;
+}
+
+.clearAvatar {
+  @apply z-10 absolute right-[10px] top-3 cursor-pointer opacity-50;
+}
+
+.saveAndCancel {
+  @apply mx-5 grid grid-cols-12 gap-x-2;
+}

@@ -1,0 +1,34 @@
+.outer {
+  @apply relative 
+  lg:h-[670px] 
+  xs:h-125 
+  mobile:h-100 mobile:mt-20;
+}
+
+.slide {
+  @apply lg:h-[670px] xs:h-125 mobile:h-100;
+}
+
+.slideImage {
+  @apply w-full h-full;
+}
+
+.overlay {
+  @apply lg:h-[670px] xs:h-125 mobile:h-100 absolute top-0 left-0 right-0 
+    bottom-0 bg-black bg-opacity-30 flex flex-col justify-center items-center;
+}
+
+.largeText {
+  @apply col-auto text-white font-bold mb-1 mt-0
+  lg:text-6xl lg:mb-5
+  xs:text-4xl xs:mb-3
+  mobile:text-2xl mobile:mb-1 uppercase;
+}
+
+.smallText {
+  @apply text-white font-bold lg:text-2xl xs:text-xl mobile:text-sm my-0;
+}
+
+.flexBox {
+  @apply flex justify-center items-center flex-col;
+}

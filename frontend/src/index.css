@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*{
+  @apply box-border 
+}  
+
+body{
+  @apply m-0 p-0
+}
+
+a{
+  @apply no-underline
+}

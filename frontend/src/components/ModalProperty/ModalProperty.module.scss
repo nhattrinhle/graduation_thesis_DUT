@@ -1,0 +1,57 @@
+.rootButton {
+  @apply bg-orangeBtn hover:bg-darkBlue;
+}
+
+.rowModal {
+  @apply flex flex-row gap-5;
+}
+
+.colModal {
+  @apply flex flex-col gap-2 w-1/4 mt-1;
+}
+
+.halfColModal {
+  @apply flex flex-row gap-2 w-1/4 mt-2;
+}
+
+.colDirection {
+  @apply xl:w-[280px]
+    lg:w-[196px]
+    flex flex-col gap-2 mt-6;
+}
+
+.description {
+  @apply w-full mt-6;
+}
+
+.coverBtn {
+  @apply mt-6;
+}
+
+.mt {
+  @apply mt-4;
+}
+
+.readOnly {
+  @apply bg-blur;
+}
+
+.radioGroupRoot {
+  @apply flex flex-row gap-4;
+}
+
+.radioGroupLabel {
+  
+}
+
+.groupRoot {
+  @apply gap-12;
+}
+
+.resetBtn {
+  @apply bg-slate-200 hover:bg-slate-200;
+}
+
+.resetBtnAfter {
+  @apply bg-slate-500 hover:bg-slate-600 text-white;
+}

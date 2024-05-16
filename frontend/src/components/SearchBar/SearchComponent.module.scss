@@ -1,0 +1,69 @@
+.searchButton3 {
+  @apply bg-orangeBtn hover:bg-darkBlue mobile:w-auto lg:w-auto px-5;
+}
+
+.label {
+  @apply bg-primary;
+}
+
+.paginationControl {
+  @apply text-black mt-5;
+}
+
+.gridInputArea {
+  @apply grid grid-cols-12 gap-x-5 lg:px-0 mobile:px-5;
+}
+
+.gridInputAreaLeft {
+  @apply lg:col-span-3 flex lg:flex-col mobile:flex-row lg:justify-end lg:items-start mobile:items-end mobile:justify-between mobile:col-span-12;
+}
+
+.gridInputAreaLeftTitle {
+  @apply font-bold text-xl text-primary truncate line-clamp-2 flex flex-col;
+}
+
+.gridInputAreaRight {
+  @apply col-span-9 items-center py-0;
+}
+
+.gridInputAreaRightInner {
+  @apply flex lg:justify-between lg:flex-col lg:pl-5 mobile:flex-row mobile:justify-start;
+}
+
+.gridInputAreaRightInnerLeft {
+  @apply gap-x-5 gap-y-5 lg:my-5 mobile:my-7 flex lg:flex-row lg:justify-end lg:items-end mobile:items-center mobile:flex-col;
+}
+
+.gridInputAreaRightInnerRight {
+  @apply flex lg:justify-end lg:items-start mobile:justify-start items-center;
+}
+
+.gridInputArea2 {
+  @apply grid grid-cols-12 gap-x-2 lg:px-0 mobile:px-5;
+}
+
+.gridCustomSelectArea {
+  @apply xl:col-span-2 mobile:col-span-3 flex flex-col gap-y-3;
+}
+
+.priceRangeBlock {
+  @apply flex font-bold justify-start items-end gap-x-3 outline outline-1 rounded-sm
+   outline-gray-300 h-14 px-1 pb-1;
+}
+
+.paginationAreaOrNoContent {
+  @apply xl:col-span-10 lg:col-span-9 mobile:col-span-12 justify-center lg:pl-5;
+}
+
+.noContentArea {
+  @apply flex flex-col col-span-10 w-full flex-wrap justify-start py-10 bg-slate-100 
+  items-center overflow-x-auto px-2 text-primary h-full relative;
+}
+
+.paginationArea {
+  @apply flex flex-col justify-center items-center  relative ;
+}
+
+.propertyStyle {
+  @apply grid 2xl:grid-cols-4 xl:grid-cols-3 xs:grid-cols-2 mobile:grid-cols-1 gap-7;
+}

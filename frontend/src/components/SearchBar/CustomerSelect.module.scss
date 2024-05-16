@@ -1,0 +1,40 @@
+.textInput {
+  cursor: pointer;
+  font: bolder;
+  color: black;  // for category,... + value or others' placeholder
+  &::placeholder {  
+    // font: bolder;
+    color: black;
+  }
+}
+
+.customTextInput {
+  font: bold;
+  cursor: pointer;
+  color: #396652;
+  &::placeholder {
+    font: bolder;
+    color: #396652;
+  }
+}
+
+.noCursor {
+  font: bolder;
+  cursor: auto;
+  color: #396652;
+
+  &::placeholder {
+    font: bolder;
+    color: #396652;
+  }
+}
+
+.noCursorInput {
+  font: bold;
+  cursor: auto;
+  color: #396652;
+
+  &::placeholder {  
+    color: black;
+  }
+}

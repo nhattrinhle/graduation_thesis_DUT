@@ -1,0 +1,3 @@
+export const LAYOUT_COMMON = "LAYOUT_COMMON"
+export const LAYOUT_AUTH = "LAYOUT_AUTH"
+export const LAYOUT_SELLER = "LAYOUT_SELLER"

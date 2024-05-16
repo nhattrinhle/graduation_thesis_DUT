@@ -1,0 +1,19 @@
+.drawers {
+  @apply xl:hidden mobile:block  bg-drawerBackground;
+}
+
+.iconAlign {
+  @apply h-7.5 w-5 ;
+}
+
+.toggleBtn {
+  @apply xl:hidden mobile:block  bg-primary hover:bg-primary;
+}
+
+.drawersContent {
+  @apply bg-drawerBackground px-5  flex justify-start;
+}
+
+.logo {
+  @apply w-2/3 cursor-pointer;
+}

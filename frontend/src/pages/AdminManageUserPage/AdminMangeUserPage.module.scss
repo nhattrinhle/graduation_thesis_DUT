@@ -1,0 +1,19 @@
+.tablePropertyContainer {
+  @apply xl:mx-5 lg:mx-5 font-archivo;
+}
+.tablePropertyContent {
+  @apply bg-white rounded-[15px] shadow-xl px-5 py-2;
+}
+.tableHeader {
+  @apply flex flex-row justify-between items-center;
+}
+.pageTitle {
+  @apply flex flex-col;
+}
+.title {
+  @apply text-[24px] font-bold font-archivo text-primary;
+}
+
+.subTitle {
+  @apply font-semibold text-base;
+}

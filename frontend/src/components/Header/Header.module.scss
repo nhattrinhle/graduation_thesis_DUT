@@ -1,0 +1,15 @@
+.outer {
+  @apply bg-primary justify-between items-center z-[999] 
+  lg:px-16 lg:h-24
+  xs:px-10 xs:h-20
+  mobile:px-7 mobile:h-20 
+  flex;
+}
+
+.logo {
+  @apply w-[50] px-5 cursor-pointer h-full;
+}
+
+.logoOuter {
+  @apply lg:h-3/5 xs:h-1/2 h-1/2;
+}

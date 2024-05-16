@@ -1,0 +1,16 @@
+.radioGroupRoot {
+  @apply flex flex-col;
+}
+.radioGroupLabel {
+  @apply text-base;
+}
+.groupRoot {
+  @apply flex flex-col items-start mt-4;
+}
+.renewBtn {
+  @apply flex items-center px-12 bg-orangeBtn hover:bg-darkBlue text-base text-white mt-4;
+}
+
+.message{
+    @apply text-base text-black font-bold
+}

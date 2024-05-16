@@ -1,0 +1,56 @@
+.footerContainer {
+  @apply w-full bg-primary h-[260px] mobile:h-full bottom-0 relative;
+}
+
+.footerContent {
+  @apply px-15
+  lg:py-10 lg:flex lg:flex-row lg:justify-evenly lg:items-start 
+  mobile:flex mobile:flex-col mobile:items-center mobile:py-5;
+}
+
+.footerCol {
+}
+
+.footerTitleCol {
+  @apply text-white font-bold text-[18px] mobile:py-[10px] lg:text-left mobile:text-center;
+}
+
+.footerContentCol {
+  @apply mt-5 pl-5 text-base text-blur list-none no-underline
+  lg:text-justify
+  mobile:mt-0 mobile:p-0 mobile:text-center;
+}
+
+.footerCoverLogo {
+  @apply w-[260px] text-blur mobile:text-center;
+}
+
+.footerImage {
+  @apply w-57.5;
+}
+
+.footerContact {
+  @apply list-none mobile:text-center;
+}
+
+.footerLink, .footerLinkDisabled {
+  @apply flex leading-[24px] items-center lg:justify-start no-underline text-blur
+  hover:text-white mobile:justify-center;
+}
+
+.footerLinkDisabled {
+  pointer-events: none;
+}
+
+.iconLink {
+  @apply mr-3;
+}
+
+.footerCopyRight {
+  @apply text-white lg:flex lg:items-center lg:justify-center lg:pb-3 
+  mobile:flex mobile:items-center mobile:justify-center mobile:pb-4;
+}
+
+.footerSlogan {
+  @apply text-justify;
+}

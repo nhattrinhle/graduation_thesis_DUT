@@ -1,0 +1,95 @@
+.tablePropertyContainer {
+  @apply xl:mx-5 lg:mx-5 font-archivo;
+}
+
+.tablePropertyContent {
+  @apply bg-white rounded-[15px] shadow-xl px-5 py-2;
+}
+
+.tableHeader {
+  @apply flex flex-row justify-between items-center;
+}
+
+.pageTitle {
+  @apply flex flex-col;
+}
+
+.title {
+  @apply text-[24px] font-bold font-archivo text-primary;
+}
+
+.subTitle {
+  @apply font-semibold text-base;
+}
+
+.searchContainer {
+  @apply flex gap-8;
+}
+
+.textInput {
+  @apply w-75 focus:border-primary text-lg;
+}
+.iconSearch {
+  @apply w-16 cursor-pointer h-auto text-white rounded-[4px] hover:bg-darkBlue bg-orangeBtn;
+}
+
+.avatar {
+  @apply min-w-[40px] w-10 h-10;
+}
+
+.actionIcon {
+  @apply text-[20px] cursor-pointer;
+}
+
+.editIcon {
+  @apply text-orangeBtn;
+}
+
+.deleteIcon {
+  @apply text-red;
+}
+
+.userActions {
+  @apply flex flex-row items-center justify-start gap-4 h-full;
+}
+.paginationControl {
+  @apply text-black;
+}
+
+.bodyModal {
+  @apply p-0;
+}
+.rootSelectActions {
+  @apply flex items-end gap-4;
+}
+
+.labelSelectActions {
+  @apply text-xl text-primary font-bold;
+}
+
+.inputSelectActions {
+  @apply border-primary text-primary font-semibold text-base max-w-50;
+}
+
+.dropdownSelectActions {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  @apply border-none;
+}
+
+.optionsSelectActions {
+}
+.optionSelectActions {
+  @apply bg-second mt-1 hover:bg-blur text-base font-semibold;
+}
+.rootApplyBtn {
+  @apply bg-darkBlue text-white text-base hover:bg-orangeBtn;
+}
+.rootButtonDeleteAll {
+  @apply bg-slate-200 text-gray-400 hover:bg-slate-200 hover:text-gray-400;
+}
+
+.rootButtonDeleteAllAfter {
+  @apply bg-darkBlue text-white hover:bg-darkBlue;
+}

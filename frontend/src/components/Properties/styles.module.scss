@@ -1,0 +1,105 @@
+.propertyContainer {
+  box-shadow:
+    0 0px 2px 0 rgba(0, 0, 0, 0.1),
+    0 2px 12px 0 rgba(0, 0, 0, 0.15);
+  @apply col-span-1 
+      relative
+      border-[1.2px] 
+      border-slate-200 
+      bg-second
+      rounded-[8px] 
+      transition 
+      hover:scale-105  
+      text-sm;
+}
+
+.propertyContent {
+  @apply flex flex-col items-center w-full gap-1;
+}
+
+.propertyDisabled {
+  @apply absolute w-full h-full bg-[#a3a3a3] z-[2] rounded-[8px] opacity-50;
+}
+
+.propertyFeatured {
+  @apply absolute 
+      top-0 
+      left-0 
+      text-[14px] 
+      py-[7px] 
+      px-[15px] 
+      rounded-tl-[8px]
+      uppercase 
+      inline-block 
+      z-[1]
+      text-white;
+}
+
+.propertyName {
+  @apply h-[24px] text-base px-3  text-nowrap text-ellipsis 
+  overflow-hidden;
+}
+
+.propertyNameLink {
+  @apply text-black no-underline;
+}
+
+.propertyCoverImage {
+  @apply overflow-hidden relative w-full p-3;
+}
+
+
+
+.propertyImage {
+  @apply w-full h-62.5 object-cover;
+}
+
+.propertyLocation {
+  @apply flex justify-between items-center
+    leading-[25px]
+    text-left
+    px-2 pb-1 h-10
+    relative;
+}
+.propertyDetailLocation {
+  @apply text-base
+  text-grey truncate;
+}
+.propertyIcon {
+  @apply mr-1 text-grey;
+}
+.heartCoverIcon {
+  @apply cursor-pointer px-2 text-primary
+  hover:text-red hover:ease-in hover:duration-300;
+}
+
+.heartIsAdded {
+  @apply text-orangeHeart z-[5] hover:text-[#AA0000] cursor-pointer px-2   
+  hover:ease-in hover:duration-300 bg-transparent hover:bg-transparent;
+}
+
+.removeWishlist {
+  @apply text-orangeHeart hover:text-[#AA0000] cursor-pointer px-2   
+  hover:ease-in hover:duration-300 bg-transparent hover:bg-transparent 
+  absolute z-[5] right-0 top-0;
+}
+
+.propertyCoverIcon {
+  @apply flex items-center;
+}
+
+.propertyPrice {
+  @apply w-full h-9 items-center flex text-slate-50 text-base  px-3 relative;
+}
+
+.propertyDescription {
+  @apply p-2 flex justify-between leading-3;
+}
+
+.propertyDesIcon {
+  @apply flex items-center;
+}
+.propertyStatus {
+  @apply absolute flex justify-center items-center z-[5] text-white bottom-0  font-semibold
+  bg-gray-600 w-auto text-center text-sm h-9 w-full left-0;
+}

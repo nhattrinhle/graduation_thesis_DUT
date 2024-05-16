@@ -1,0 +1,77 @@
+.tablePropertyContainer {
+    @apply xl:mx-5 lg:mx-5 font-archivo mt-8 ;
+}
+
+.tablePropertyContent {
+    @apply bg-white rounded-[15px] shadow-xl px-5 pt-2 pb-5;
+}
+
+.tableHeader {
+    @apply flex flex-row justify-between items-center;
+}
+
+.pageTitle {
+    @apply flex flex-col;
+}
+
+.title {
+    @apply text-[24px] font-bold font-archivo text-primary;
+}
+
+.subTitle {
+    @apply font-semibold text-base;
+}
+
+.searchContainer {
+    @apply flex gap-8;
+}
+
+.textInput {
+    @apply w-75 focus:border-primary text-lg;
+}
+
+.iconSearch {
+    @apply w-16 cursor-pointer h-auto text-white rounded-[4px] hover:bg-darkBlue bg-orangeBtn;
+}
+
+.avatar {
+    @apply min-w-[40px] w-10 h-10;
+}
+
+.actionIcon {
+    @apply text-[20px] cursor-pointer;
+}
+
+.editIcon {
+    @apply text-orangeBtn;
+}
+
+.deleteIcon {
+    @apply text-red;
+}
+
+.userActions {
+    @apply flex flex-row items-center justify-start gap-4 h-full;
+}
+
+.paginationControl {
+    @apply text-black;
+}
+
+.day {
+    &[data-in-range] {
+        background-color: #DCE4F5;
+        color: black;
+    }
+
+    &[data-selected] {
+        background-color: #B9C7E2;
+        color: black;
+    }
+}
+.addBtn {
+    @apply text-base hover:bg-darkBlue bg-orangeBtn;
+}
+.iconBtn {
+    @apply text-base mr-2 font-normal text-white;
+}

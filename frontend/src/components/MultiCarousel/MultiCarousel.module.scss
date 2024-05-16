@@ -1,0 +1,25 @@
+.outer {
+  @apply my-10;
+}
+
+.title {
+  @apply text-[30px] mobile:text-30 text-darkBlue font-archivo mb-1;
+}
+
+.underline {
+  @apply w-[80px] h-[4px] bg-[#209c24] block mx-0 mb-7.5;
+}
+
+.carouselItem {
+  @apply cursor-pointer mx-[10px] h-full;
+}
+
+.leftArrow {
+  @apply absolute h-[35px] w-[35px] left-5 cursor-pointer text-black bg-gray-100 
+  opacity-80 rounded-[100px] outline outline-1 outline-blue-300 hover:opacity-100 p-1;
+}
+
+.rightArrow {
+  @apply absolute h-[35px] w-[35px] right-5 cursor-pointer text-black bg-gray-100
+   opacity-75 rounded-[100px] outline outline-1 outline-blue-300 hover:opacity-100 p-1;
+}

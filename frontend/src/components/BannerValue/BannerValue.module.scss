@@ -1,0 +1,18 @@
+.bannerContainer {
+  @apply lg:h-[120px]  bg-zinc-800 my-[60px] mobile:h-[100%]  w-full;
+}
+
+.bannerContent {
+  @apply lg:h-[100%] lg:px-[20px] lg:flex lg:flex-row lg:items-center justify-evenly mobile:flex mobile:flex-col;
+}
+
+.bannerContentCol {
+  @apply mobile:h-[60px] lg:flex lg:items-center mobile:flex  mobile:flex-row  mobile:justify-center mobile:items-center;
+}
+
+.bannerIcon {
+  @apply lg:text-[26px] mobile:text-[26px] xl:text-[32px] text-paleOliveGreen;
+}
+.bannerText {
+  @apply xl:text-[24px] text-paleOliveGreen  mobile:text-[16px]  lg:ml-[6px] lg:text-[20px] font-semibold;
+}

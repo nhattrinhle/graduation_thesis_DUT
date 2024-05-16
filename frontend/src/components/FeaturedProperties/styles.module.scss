@@ -1,0 +1,32 @@
+.featuredContainer {
+  @apply w-full mt-5
+    lg:px-15 lg:mb-10 
+    mobile:px-5 
+    xl:px-30;
+}
+
+.featuredTitle {
+  @apply text-left text-darkBlue font-archivo text-30;
+}
+
+.featuredLineBreak {
+  @apply w-12.5 h-1 bg-[#209c24] block mt-6 mx-0 mb-7.5;
+}
+
+.featuredContent {
+  @apply grid grid-cols-1 
+    sm:grid-cols-2 
+    lg:grid-cols-2
+    xl:grid-cols-4 gap-8;
+}
+
+.buttonContainer {
+  @apply text-center;
+}
+
+.rootButtonRent {
+  @apply animate-bounce bg-white  border-primary text-primary text-center mt-5 hover:text-white hover:bg-primary hover:border-primary;
+}
+.rootButtonSale {
+  @apply animate-bounce bg-white text-labelBlue border-labelBlue text-center mt-5 hover:text-white hover:bg-labelBlue hover:border-labelBlue;
+}

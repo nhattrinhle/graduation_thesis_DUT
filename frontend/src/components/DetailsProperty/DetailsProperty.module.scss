@@ -1,0 +1,36 @@
+.tableTitle {
+  @apply text-primary text-2xl font-semibold font-archivo px-5 pt-5 pb-3;
+}
+
+.tableContent {
+  @apply lg:flex lg:flex-row 
+  mobile:flex mobile:flex-col;
+}
+
+.tableCol {
+  @apply w-3/6  text-base
+  mobile:w-full;
+}
+
+.tableRow {
+  @apply w-full border-b border-x-0 border-t-0 border-solid border-gray-300  px-5 py-1.5 
+    flex flex-row ;
+}
+
+.labelText {
+  @apply lg:w-3/6 block font-semibold
+  mobile:w-full;
+}
+
+.value {
+  @apply lg:w-3/6 block
+  mobile:w-full;
+}
+
+.detailDescription {
+  @apply px-5 pb-7.5 whitespace-break-spaces;
+}
+
+.location{
+  @apply font-semibold mr-4 text-base
+}

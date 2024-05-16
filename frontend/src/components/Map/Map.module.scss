@@ -1,0 +1,8 @@
+.mapContainer {
+  @apply m-3 outline outline-none pt-3 rounded-sm lg:mx-5 mobile:mx-[10px] 
+   mb-7;
+}
+
+.mapFont {
+  @apply text-[22px] font-semibold font-archivo my-0 ml-3 mb-3;
+}

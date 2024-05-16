@@ -1,0 +1,74 @@
+.creditContainer {
+  @apply my-7.5
+  xl:mx-5 lg:mx-5;
+}
+
+.creditContent {
+  @apply flex flex-row gap-5 justify-between;
+}
+
+.creditNoti {
+  @apply w-3/5 flex flex-col gap-2 py-2 px-5 rounded-[16px] h-[150px] bg-white shadow-xl;
+}
+
+.title {
+  @apply flex flex-row  items-center gap-3;
+}
+
+.titleText {
+  @apply font-archivo text-24 font-semibold text-primary text-center;
+}
+
+.titleIcon {
+  @apply text-primary text-24;
+}
+
+.detailNoti {
+  @apply overflow-y-scroll pr-4;
+}
+.row {
+  @apply border-b-[1px] flex flex-row items-start justify-between;
+}
+
+.content {
+  @apply w-75;
+}
+.quantity {
+  @apply flex flex-row items-center justify-between;
+}
+
+.symbol {
+  @apply text-sm w-4 font-bold text-center;
+}
+
+.money {
+  @apply w-[48px] font-semibold;
+}
+
+.icon {
+  @apply ml-1 text-orangeBtn;
+}
+
+.creditCurrent {
+  @apply w-2/5 rounded-[16px] py-2 px-3 bg-white shadow-xl;
+}
+
+.creditCurrentRow {
+  @apply flex flex-row items-center gap-3 justify-center;
+}
+
+.creditAmount {
+  @apply text-30 font-semibold;
+}
+
+.creditIcon {
+  @apply text-30 text-orangeBtn;
+}
+
+.creditBtn {
+  @apply text-right mt-2 w-full;
+}
+
+.rootButton {
+  @apply bg-orangeBtn hover:bg-darkBlue w-full text-lg;
+}

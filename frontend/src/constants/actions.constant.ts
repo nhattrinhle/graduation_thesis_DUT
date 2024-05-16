@@ -1,0 +1,7 @@
+export const DELETE = 'delete'
+export const DISABLE = 'disable'
+export const VIEW_PROP = 'view'
+export const ADD_PROP = 'add'
+export const EDIT_PROP = 'edit'
+export const RENEW = 'renew'
+export const UPGRADE = 'upgrade'

@@ -1,0 +1,6 @@
+/node_modules
+/build
+/src/.DS_Store
+/package-lock.json
+/src/components/.DS_Store
+.env

@@ -1,0 +1,27 @@
+.wrapper {
+  @apply lg:w-[470px] md:w-[400px] xs:w-[350px] mobile:w-[300px] md:py-5  mobile:py-4;
+}
+
+.input {
+  @apply bg-gray-50  border border-[#73a8d7] font-medium text-primary;
+}
+
+.section {
+  @apply h-[52%] top-[24%]  bg-teal-100 hover:bg-orange-100;
+
+  &:hover .icon {
+    color: rgba(255, 166, 0, 0.961);
+  }
+}
+
+.icon {
+  @apply text-grey hover:text-primary;
+}
+
+.selectOption {
+  @apply text-[16px] text-black px-0;
+}
+
+.selectInput {
+  @apply text-primary px-0 pl-3  rounded-none border-l-blur xs:border-l-[3.5px] mobile:border-l-[2.5px] mobile:text-[16px] lg:text-lg font-semibold;
+}

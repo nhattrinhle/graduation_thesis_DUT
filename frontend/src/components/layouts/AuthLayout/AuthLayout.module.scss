@@ -1,0 +1,23 @@
+.authContainer {
+  background-color: #55efc4;
+  background-image: linear-gradient(315deg, #55efc4 0%, #00000099 74%);
+  @apply min-h-[100vh] max-w-full overflow-y-scroll flex items-center justify-center py-5;
+}
+
+.outletContainer {
+  @apply flex justify-center items-center;
+}
+
+.btnBackHome {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  @apply flex flex-row items-center rounded-[15px] 
+   w-[34px] bg-zinc-200 hover:bg-zinc-400 py-[6px] px-2;
+}
+
+.rootLoginForm {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
